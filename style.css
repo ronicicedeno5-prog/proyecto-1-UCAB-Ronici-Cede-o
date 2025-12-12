@@ -1,0 +1,220 @@
+.titulo{
+  text-align: center;
+}
+.lista-flex {
+    display: flex;
+    justify-content: flex-end; 
+    font-size: 11px;
+    margin: 5px; 
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+
+.main-nav {
+    background-color: #5c5c5d; 
+    
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.p{
+  color: #fff;
+}
+.con{
+  text-align: left;
+}
+.nav-list > li {
+    position: relative;
+}
+.nav-list > li > a {
+    position: relative;   
+}
+h1 {
+    font-size: 50px;
+    color: #343434;
+}
+ .no-bold {
+      font-weight: normal;
+      font-size: 20px;
+    }
+.tour_360_mundo_ucab{
+    width: 1220px;
+    height: 200px ;
+}
+
+.informacion-pag{
+    float: left; 
+  margin-right: 10px; 
+
+}
+.susbrayar {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Arial, sans-serif;
+  
+}
+h3 {
+  background-color: rgb(107, 107, 109);
+  width: 1200px;
+  height: 40px;
+text-align: center;
+}
+.list-group-itemh {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.space{
+  display: flex;
+  justify-content: center;
+}
+.edit-button-color{
+  color: white;
+  background-color: #6D4CFF;
+   padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.edit-button-colors{
+  color: white;
+  background-color:#E09128;
+   padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+ul, ol {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+}
+li{
+  padding: 5px;
+}
+.edit-button-color a{
+  color: white;
+  text-decoration: none;
+}
+.delete-button {
+
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius:  30% ;
+  cursor: pointer;
+}
+.edit-button {
+ 
+  background-color:#40B4E5;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.edit-button a {
+color: white;
+text-decoration: none;
+}
+body {
+  font-size:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
+footer{
+  background-color: #F7F7F7;
+  
+}
+.titulo-especial {
+  font-size: 2.5em;
+  font-weight: bold; 
+  text-align: center;
+}
+.parrafo{
+  text-align: justify;
+  padding:50px ;
+  
+}
+.hoja{
+  background-color: #F7F7F7;
+ 
+
+}
+.padre{
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+}
+.azul{
+  color: #40B4E5;
+}
+.imagen-con-borde {
+  border: 5px solid #000000; 
+}
+.li{
+  background-color:#40B4E5;
+   padding: 0,2px;
+}
+.contenedor_importante{
+  padding: 100px ;
+}
+
+.hover :hover{
+  transform: scale(1.08);
+    box-shadow: 0 6px 12px rgba(52, 152, 219, 0.3);
+}
+.cont{
+  display: flex;
+}
+.texto{
+    width: 300px; 
+    max-width: 400px; 
+    width: fit-content;
+}
+.letras{
+  color: #40B4E5;
+}
+.bloque{
+  padding: 50px 70px 30px 70px;
+  justify-content: center;
+  text-align: center;   
+}
+.hove :hover{
+  transform: scale(1.08);
+    box-shadow: 0 6px 12px rgba(52, 152, 219, 0.3);
+}
+.hoja_cr{
+  display: flex;
+}
+.secretaria{
+  padding: 0px 0px 0px 70px;
+}
+
+.edit-button :hover{
+  background-color: #ffff;
+  color: #40B4E5;
+  border: solid 2px #ffff;
+}
+.bloque_cr{
+   padding: 50px 0px 0px 50px;
+  justify-content: center;
+  text-align: center;  
+}
